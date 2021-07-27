@@ -29,7 +29,7 @@ h1.innerHTML = "Hello World!!";
 document.getElementById("root").appendChild(h1);
 
 const name = "Raunak";
-//Can use only expressions ex- {Math.floor(Math.random() * 10)} not statements
+//Can use only expressions ex- {Math.floor(Math.random() * 10)} not statements ex- if else
 ReactDOM.render(
   <div>
     <h1> Hello {name} </h1>
