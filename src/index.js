@@ -3,6 +3,10 @@
 //It should display an unordered list (bullet points).
 //It should contain 3 list elements.
 
+// var React =  require('react');
+// var ReactDom = require('react-dom');
+
+//Using ES6
 import React from "react";
 import ReactDOM from "react-dom";
 
