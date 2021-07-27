@@ -9,22 +9,9 @@
 //Using ES6
 import React from "react";
 import ReactDOM from "react-dom";
-
+import App from "./components/App";
 //HTML attributes are written in camelCase
-ReactDOM.render(
-  <div>
-    <h1 className="heading" contentEditable="true" spellCheck="false">
-      TODO List
-    </h1>
-    <ul>
-      <li>Go</li>
-      <li>Read</li>
-      <li>Eat</li>
-      <li>Sleep</li>
-    </ul>
-  </div>,
-  document.getElementById("root")
-);
+ReactDOM.render(<App />, document.getElementById("root"));
 
 //Using JavaScript
 var h1 = document.createElement("h1");
