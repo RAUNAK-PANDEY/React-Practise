@@ -27,3 +27,13 @@ ReactDOM.render(
 var h1 = document.createElement("h1");
 h1.innerHTML = "Hello World!!";
 document.getElementById("root").appendChild(h1);
+
+const name = "Raunak";
+//Can use only expressions ex- {Math.floor(Math.random() * 10)} not statements
+ReactDOM.render(
+  <div>
+    <h1> Hello {name} </h1>
+    <p> Lucky number is {Math.floor(Math.random() * 10)} </p>
+  </div>,
+  document.getElementById("container")
+);
