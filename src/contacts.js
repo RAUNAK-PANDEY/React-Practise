@@ -1,5 +1,6 @@
 const contacts = [
   {
+    id: 1,
     name: "Beyonce",
     imgURL:
       "https://blackhistorywall.files.wordpress.com/2010/02/picture-device-independent-bitmap-119.jpg",
@@ -7,6 +8,7 @@ const contacts = [
     email: "itisb@beyonce.com"
   },
   {
+    id: 2,
     name: "Roman Reigns",
     imgURL:
       "https://upload.wikimedia.org/wikipedia/commons/9/92/Roman_Reigns_Tribute_to_the_Troops_2016.jpg",
