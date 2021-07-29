@@ -3,10 +3,10 @@ import React from "react";
 function List() {
   return (
     <ul>
-      <li>Go</li>
-      <li>Read</li>
-      <li>Eat</li>
-      <li>Sleep</li>
+      <li className="list">Go</li>
+      <li className="list">Read</li>
+      <li className="list">Eat</li>
+      <li className="list">Sleep</li>
     </ul>
   );
 }
