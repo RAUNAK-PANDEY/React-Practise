@@ -1,6 +1,6 @@
 .headingtop {
   color: red;
-  text-align: left;
+  text-align: center;
 }
 
 .inline {
@@ -149,4 +149,56 @@ dd dl {
 
 dd dl .term {
   margin-bottom: 1rem;
+}
+
+/* Login form CSS */
+.container {
+  margin: 10% auto;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 40px;
+  font-weight: 200;
+}
+
+form {
+  padding: 20px 0;
+  position: relative;
+}
+form input {
+  border: 1px solid rgba(46, 40, 40, 0.4);
+  background-color: rgba(252, 252, 252, 0.2);
+  width: 250px;
+  border-radius: 3px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  font-weight: 300;
+}
+
+form button {
+  appearance: none;
+  outline: 0;
+  background-color: #50a3a2;
+  border: 0;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 3px;
+  width: 250px;
+  font-size: 18px;
+}
+
+.cards {
+  border-radius: 25px;
+  position: relative;
+  padding: 25px 15px;
+  background-color: rgb(247, 244, 244);
+  margin: 50px 0;
+  height: 200px;
+  box-shadow: 0 2px 5px #dfe2e2;
 }

@@ -10,6 +10,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./components/App";
+import Login from "./components/Login";
 //HTML attributes are written in camelCase
 ReactDOM.render(<App />, document.getElementById("root"));
 
@@ -131,3 +132,14 @@ ReactDOM.render(
 
 //if there is single return expression then
 // const newNumbers = numbers.map(x => x * x);
+
+var isLoggedIn = false;
+//conditional Rendering
+ReactDOM.render(
+  <div className="container">
+    {/*Ternary Operator*/}
+    <h1 className="headingtop">Login Form</h1>
+    {isLoggedIn ? <h1>Hello</h1> : <Login />}
+  </div>,
+  document.getElementById("card-container")
+);
