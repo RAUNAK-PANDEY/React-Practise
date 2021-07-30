@@ -11,6 +11,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./components/App";
 import Login from "./components/Login";
+import Form from "./components/Form";
 //HTML attributes are written in camelCase
 ReactDOM.render(<App />, document.getElementById("root"));
 
@@ -142,4 +143,20 @@ ReactDOM.render(
     {isLoggedIn ? <h1>Hello</h1> : <Login />}
   </div>,
   document.getElementById("card-container")
+);
+
+//Challenge: Without moving the userIsRegistered variable,
+//1. Show Login as the button text if userIsRegistered is true.
+//Show Register as the button text if userIsRegistered is false.
+//2. Only show the Confirm Password input if userIsRegistered is false.
+//Don't show it if userIsRegistered is true.
+
+//Form changes based on these boolean values
+var userIsRegistered = false;
+ReactDOM.render(
+  <div className="container">
+    <h1 className="headingtop">Login And Register Form</h1>
+    <Form isRegistered={userIsRegistered} />
+  </div>,
+  document.getElementById("render-container")
 );
