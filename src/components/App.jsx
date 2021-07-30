@@ -3,6 +3,8 @@ import Heading from "./Heading";
 import List from "./List";
 import contacts from "../contacts";
 import Card from "./Card";
+import Entry from "./Entry";
+import emojipedia from "../emojipedia";
 
 function createCard(contact) {
   return (
@@ -16,6 +18,18 @@ function createCard(contact) {
   );
 }
 
+//Mapping data practise
+function createEntry(emojiTerm) {
+  return (
+    <Entry
+      key={emojiTerm.id}
+      emoji={emojiTerm.emoji}
+      name={emojiTerm.name}
+      description={emojiTerm.meaning}
+    />
+  );
+}
+
 function App() {
   return (
     <div>
@@ -23,18 +37,10 @@ function App() {
       <List />
       <h1 className="headingtop">Contacts</h1>
       {contacts.map(createCard)}
-      {/* <Card
-        name={contacts[0].name}
-        img={contacts[0].imgURL}
-        tel={contacts[0].phone}
-        email={contacts[0].email}
-      />
-      <Card
-        name={contacts[1].name}
-        img={contacts[1].imgURL}
-        tel={contacts[1].phone}
-        email={contacts[1].email}
-      /> */}
+      <h1>
+        <span>emojipedia</span>
+      </h1>
+      <dl className="dictionary">{emojipedia.map(createEntry)}</dl>
     </div>
   );
 }
