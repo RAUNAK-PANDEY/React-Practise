@@ -120,3 +120,14 @@ ReactDOM.render(
 // })
 
 // console.log(newNumber);
+
+//Use of Arrow functions
+
+// var numbers = [3, 56, 2, 48, 5];
+
+// const newNumbers = numbers.map((x) => {
+//   return x * 2;
+// });
+
+//if there is single return expression then
+// const newNumbers = numbers.map(x => x * x);
