@@ -229,3 +229,11 @@ button {
   font-weight: bold;
   font-size: 50px;
 }
+
+table {
+  width: 400px;
+}
+
+tr td {
+  padding: 0 10px;
+}

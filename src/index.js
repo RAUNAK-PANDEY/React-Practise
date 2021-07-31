@@ -12,6 +12,7 @@ import ReactDOM from "react-dom";
 import App from "./components/App";
 import Login from "./components/Login";
 import Form from "./components/Form";
+import Destructure from "./components/Destructure";
 //HTML attributes are written in camelCase
 ReactDOM.render(<App />, document.getElementById("root"));
 
@@ -160,3 +161,5 @@ ReactDOM.render(
   </div>,
   document.getElementById("render-container")
 );
+
+ReactDOM.render(<Destructure />, document.getElementById("destructure"));
