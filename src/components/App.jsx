@@ -5,7 +5,8 @@ import contacts from "../contacts";
 import Card from "./Card";
 import Entry from "./Entry";
 import emojipedia from "../emojipedia";
-
+import Hook from "./Hook";
+import Time from "./Time";
 function App() {
   return (
     <div>
@@ -37,6 +38,9 @@ function App() {
           />
         ))}
       </dl>
+      <h1 className="headingtop">useState Hook</h1>
+      <Hook />
+      <Time />
     </div>
   );
 }
