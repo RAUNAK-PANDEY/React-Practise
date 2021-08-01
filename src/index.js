@@ -170,3 +170,21 @@ ReactDOM.render(<Destructure />, document.getElementById("destructure"));
 ReactDOM.render(<EventHandling />, document.getElementById("EventHandling"));
 
 ReactDOM.render(<ComplexForm />, document.getElementById("ComplexForm"));
+
+//ES6 Spread operator = ... followed by array or objects
+
+// const citrus = ["Lime", "Lemon", "Orange"];
+// const fruits = ["Apple", ...citrus, "Banana", "Coconut"];
+
+// const fullName = {
+//   fName: "James",
+//   lName: "Bond"
+// };
+
+// const user = {
+//   ...fullName,
+//   id: 1,
+//   username: "jamesbond007"
+// };
+
+// console.log(user);
