@@ -15,6 +15,7 @@ import Form from "./components/Form";
 import Destructure from "./components/Destructure";
 import EventHandling from "./components/EventHandling";
 import ComplexForm from "./components/ComplexForm";
+import TodoList from "./components/TodoList";
 
 //HTML attributes are written in camelCase
 ReactDOM.render(<App />, document.getElementById("root"));
@@ -188,3 +189,5 @@ ReactDOM.render(<ComplexForm />, document.getElementById("ComplexForm"));
 // };
 
 // console.log(user);
+
+ReactDOM.render(<TodoList />, document.getElementById("todo-container"));
