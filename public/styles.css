@@ -299,6 +299,9 @@ tr td {
   /* margin-bottom: 20px; */
 }
 
+.todoform {
+  display: flex;
+}
 .todobutton {
   padding: 0;
   border: none;
